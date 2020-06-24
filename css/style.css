@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.header {
+.header, .section {
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -243,6 +243,25 @@ body {
   cursor: pointer;
 }
 
+.title {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Lato Regular", sans-serif;
+}
+
+.input, .select {
+  border: none;
+  width: 240px;
+  height: 40px;
+}
+
+.textarea {
+  border: none;
+  width: 240px;
+  height: 120px;
+}
+
 .section-service {
   background-color: #fff;
   padding-top: 80px;
@@ -315,5 +334,19 @@ body {
   color: #000;
   font-weight: 400;
   font-family: "Lato Regular", sans-serif;
+}
+
+.section-form {
+  background-color: #ebebeb;
+}
+
+.form-request {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.form-data {
+  border: 5px solid #fff;
+  padding: 60px;
 }
 /*# sourceMappingURL=style.css.map */
