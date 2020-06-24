@@ -1,0 +1,110 @@
+.header
+  background: url('../img/header/bg.png') no-repeat center   
+  padding-top: 20px    
+.navbar   
+  display: flex  
+  justify-content: space-between
+  align-items: center
+  
+  &__logo
+    font-size: 30px
+    font-weight: 400
+    line-height: 46px
+    text-transform: uppercase
+    color: $primary
+        
+  &__contacts
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-end
+    color: #fff
+    //  
+  &__phone
+    text-decoration: none
+    color: #fff
+    font-size: 28px
+    font-weight: 700
+    text-transform: uppercase    
+  &__text
+    text-decoration: underline
+    font-weight: 400
+    font-size: 16px
+    color: $second  
+
+.content
+  margin-top: 113px  
+.hero   
+  &__title
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: #fff
+    font-size: 30px
+    font-weight: 400        
+  &__text
+    font-size: 48px
+    font-weight: 700
+    text-transform: uppercase
+    +lato_bold
+  &__subtext
+    line-height: 46px
+    +lato_reg
+
+.service
+  display: flex
+  justify-content: space-around
+  align-items: flex-start 
+  margin-top: 100px   
+  &__item
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 170px 
+    height: 132px
+  &__foto    
+    margin-bottom: 27px
+  &__text
+    text-align: center
+    margin-top: auto
+    margin-bottom: 0
+    font-size: 18px
+    font-weight: 400
+    color: #fff    
+    +lato
+
+
+.button
+  display: flex
+  justify-content: center
+  align-items: center   
+  &-request
+    display: flex
+    flex-direction: column
+    justify-content: center    
+    margin-right: 40px  
+    margin-top: 100px      
+    &:last-child
+      margin-right: 0    
+  &__text
+    align-self: center
+    text-align: center
+    width: 150px       
+    margin-bottom: 0
+    margin-top: 20px
+    font-size: 13px    
+    font-weight: 700
+    color: #ffffff
+    padding-bottom: 74px
+  &__solid
+    background-color: $second
+    border: none
+       
+  &__transparent
+    background-color: transparent
+    border: 2px solid $second
+    
+    
+
