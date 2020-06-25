@@ -247,19 +247,42 @@ body {
   color: #000000;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
   font-family: "Lato Regular", sans-serif;
 }
 
-.input, .select {
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  color: #040404;
+  font-family: "Lato Regular", sans-serif;
+}
+
+.input {
   border: none;
   width: 240px;
   height: 40px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #B8B8B8;
+  padding-left: 16px;
+  font-family: "Lato Regular", sans-serif;
 }
 
 .textarea {
   border: none;
   width: 240px;
   height: 120px;
+  font-size: 13px;
+  color: #B8B8B8;
+  padding-left: 16px;
+  padding-top: 10px;
+}
+
+.input__arrow {
+  background-image: url(../img/section/arrow-line.png);
+  background-repeat: no-repeat;
+  background-position: right 15px center;
 }
 
 .section-service {
@@ -345,8 +368,80 @@ body {
   padding-bottom: 80px;
 }
 
+.form-request__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.form-request__subtitle {
+  margin-top: 0;
+  margin-bottom: 59px;
+}
+
 .form-data {
   border: 5px solid #fff;
   padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-data__column-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-data__column-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-data__column-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input__tel {
+  color: #141414;
+}
+
+.input__year {
+  margin-bottom: 0;
+}
+
+.input__name {
+  margin-bottom: 0;
+}
+
+.label__title {
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 7px;
+  font-family: "Lato Regular", sans-serif;
+}
+
+.label-title {
+  margin-top: 16px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -73,7 +73,11 @@
       <div class="container">
         <div class="services">
           <div class="services__item">
-            <img src="img/section/cell.png" alt="name" class="services__image" />
+            <img
+              src="img/section/cell.png"
+              alt="name"
+              class="services__image"
+            />
             <strong class="services__title">Более 1000 наименований</strong>
             <p class="services__text">
               Возможность заказа и подбора более чем по 2000 наименований
@@ -95,7 +99,7 @@
               Наши детали не были в употреблении и имеют состояние новых
             </p>
           </div>
-          
+
           <div class="services__item">
             <img
               src="img/section/europe.png"
@@ -127,45 +131,73 @@
       <div class="container">
         <div class="form-request">
           <h1 class="form-request__title title">Подробная заявка</h1>
-          <h2 class="form-request__subtitle">Заполните форму и получите максимально точную цену!</h2>
+          <h2 class="form-request__subtitle subtitle">
+            Заполните форму и получите максимально точную цену!
+          </h2>
           <form action="#" class="form-data">
-            <label for="mark" class="form-data__mark">Марка:</label>
-            <select class="form-data__group select" name="mark-auto" id="mark">
-              <option class="form-data__item" disabled>Выберите марку</option>
-              <option class="form-data__item" value="Audi">Audi</option>
-              <option class="form-data__item" value="Mercedes-Benz">Mercedes-Benz</option>
-              <option class="form-data__item" value="BMW">BMW</option>
-              <option class="form-data__item" value="Volkswagen">Volkswagen</option>
-            </select>
-            <label for="model" class="form-data__model">Модель:</label>
-            <select class="form-data__group select" name="model-auto" id="model">
-              <option class="form-data__item" disabled>Выберите модель</option>
-              <option class="form-data__item" value="GLK400">GLK400</option>
-              <option class="form-data__item" value="S63">S63</option>
-              <option class="form-data__item" value="X6">X6</option>
-              <option class="form-data__item" value="X5">X5</option>
-              <option class="form-data__item" value="Jetta">Jetta</option>
-              <option class="form-data__item" value="Golf">Golf</option>
-            </select>
-            <label for="year" class="form-data__year">Год выпуска:</label>
-            <select class="form-data__group select" name="year-auto" id="year">
-              <option class="form-data__item" disabled>Выберите год</option>
-              <option class="form-data__item" value="2000">2000</option>
-              <option class="form-data__item" value="2015">2015</option>
-              <option class="form-data__item" value="2006">2006</option>
-              <option class="form-data__item" value="2008">2008</option>
-              <option class="form-data__item" value="1995">1995</option>
-              <option class="form-data__item" value="1998">1998</option>
-            </select>
-            <label for="area" class="form-data__text">Необходимые детали:</label>
-            <textarea name="text" class="textarea" id="area" cols="" rows="" placeholder="Введите"></textarea>
-            <label for="name" class="form-data__name">Ваше имя:</label>
-            <input type="text" id="name" class="form-data__input input" placeholder="Введите">
-            <label for="tel" class="form-data__name">Ваш телефон:</label>
-            <input type="tel" name="" class="form-data__input input" id="tel" placeholder="+7 (9__) ___-__-__">
-            <label for="mailto" class="form-data__name">Ваш e-mail:</label>
-            <input type="email" name="" class="form-data__input input" id="mailto" placeholder="Введите">
-            <button class="button__solid button-site">Узнать цену</button>
+            <div class="form-data__column-one column__one column">
+              <label for="mark" class="form-data__mark label__title">Марка:</label>
+              <input
+                type="text"
+                id="mark"
+                class="form-data__input input input__arrow"
+                placeholder="Выберите марку"
+              />
+              <label for="model" class="form-data__model label__title">Модель:</label>
+              <input
+                type="text"
+                id="model"
+                class="form-data__input input input__arrow"
+                placeholder="Выберите модель"
+              />
+              <label for="year" class="form-data__year label__title">Год выпуска:</label>
+              <input
+                type="text"
+                id="year"
+                class="form-data__input input input__arrow input__year"
+                placeholder="Выберите год"
+              />
+            </div>
+            <div class="form-data__column-two column__two column">
+              <label for="area" class="form-data__text label__title"
+                >Необходимые детали:</label
+              >
+              <textarea
+                name="text"
+                class="textarea form__textarea"
+                id="area"
+                cols=""
+                rows=""
+                placeholder="Введите"
+              ></textarea>
+              <label for="name" class="form-data__name label__title label-title">Ваше имя:</label>
+              <input
+                type="text"
+                id="name"
+                class="form-data__input input input__name"
+                placeholder="Введите"
+              />
+            </div>
+
+            <div class="form-data__column-three column__three column">
+              <label for="tel" class="form-data__name label__title">Ваш телефон:</label>
+              <input
+                type="tel"
+                name=""
+                class="form-data__input input input__tel"
+                id="tel"
+                placeholder="+7 (9__) ___-__-__"
+              />
+              <label for="mailto" class="form-data__name label__title">Ваш e-mail:</label>
+              <input
+                type="email"
+                name=""
+                class="form-data__input input"
+                id="mailto"
+                placeholder="Введите"
+              />
+              <button class="button__solid button-site">Узнать цену</button>
+            </div>
           </form>
         </div>
       </div>
