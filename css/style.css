@@ -444,4 +444,68 @@ body {
 .label-title {
   margin-top: 16px;
 }
+
+.section-car {
+  background-color: #fff;
+}
+
+.car {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.car__title {
+  margin-top: 0;
+  margin-bottom: 57px;
+}
+
+.car__title_other {
+  margin-bottom: 77px;
+}
+
+.car-model {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  width: 780px;
+}
+
+.car-model__image {
+  opacity: 40%;
+}
+
+.car-model__image:hover {
+  opacity: 100%;
+  -webkit-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+  cursor: pointer;
+}
+
+.car__model {
+  margin-bottom: 70px;
+}
+
+.model__item {
+  margin-bottom: 20px;
+}
+
+.model__item:last-child {
+  margin-bottom: 0;
+}
+
+.center {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #F2F2F2;
+}
 /*# sourceMappingURL=style.css.map */
