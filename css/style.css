@@ -508,4 +508,96 @@ body {
   padding: 20px;
   border: 2px solid #F2F2F2;
 }
+
+.section-clients {
+  background-color: #EBEBEB;
+}
+
+.clients {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.clients__title {
+  margin-top: 0;
+  margin-bottom: 49px;
+}
+
+.clients-offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clients-offer__item {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offer__item {
+  margin-right: 30px;
+  margin-bottom: 70px;
+}
+
+.offer__item:last-child, .offer__item:nth-child(2) {
+  margin-right: 0;
+}
+
+.offer__item:last-child, .offer__item:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.offer-image {
+  width: 90px;
+  height: 90px;
+}
+
+.offer__image {
+  margin-right: 21px;
+}
+
+.offer-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offer-description__text {
+  margin-top: 10px;
+}
+
+.offer__title {
+  margin-top: 0;
+  color: #757575;
+  font-size: 12px;
+  font-family: "Lato Bold", sans-serif;
+}
+
+.offer__request {
+  margin-top: 0;
+  color: #D91233;
+  font-size: 16px;
+  font-family: "Lato Bold", sans-serif;
+}
+
+.offer__text {
+  margin-bottom: 0;
+  color: #2B2B2B;
+  font-size: 13px;
+  font-family: "Lato Bold", sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
