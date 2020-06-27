@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
 }
 
-.header, .section {
+.header, .section, .footer {
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -230,6 +230,67 @@ body {
 .button__transparent {
   background-color: transparent;
   border: 2px solid #d91233;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.footer__navbar {
+  padding-top: 21px;
+  padding-bottom: 31px;
+}
+
+.navbar-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-footer__logo {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #5a5a5a;
+  font-family: "Lato Regular", sans-serif;
+}
+
+.navbar-footer__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar-footer__phone {
+  text-decoration: none;
+  color: #000;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: "Lato Bold", sans-serif;
+}
+
+.navbar-footer__text {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 16px;
+  color: #d91233;
 }
 
 .button-site {
@@ -710,9 +771,9 @@ body {
       -ms-flex-pack: start;
           justify-content: start;
   background-color: #d91233;
-  padding: 55px 101px;
+  padding: 55px 70px;
   top: 50px;
-  left: 720px;
+  right: 300px;
 }
 
 .map__title {

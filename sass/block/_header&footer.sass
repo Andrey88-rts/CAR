@@ -4,15 +4,13 @@
 .navbar   
   display: flex  
   justify-content: space-between
-  align-items: center
-  
+  align-items: center  
   &__logo
     font-size: 30px
     font-weight: 400
     line-height: 46px
     text-transform: uppercase
     color: $primary
-        
   &__contacts
     display: flex
     flex-direction: column
@@ -106,5 +104,37 @@
     background-color: transparent
     border: 2px solid $second
     
-    
+//___________________________________Footer________________________________//
+.footer
+  background-color: #fff 
+  &__navbar
+    padding-top: 21px
+    padding-bottom: 31px  
+.navbar-footer  
+  display: flex  
+  justify-content: space-between
+  align-items: center  
+  &__logo
+    font-size: 30px
+    font-weight: 400
+    line-height: 46px
+    text-transform: uppercase
+    color: $primary
+    +lato_reg
+  &__contacts
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-end      
+  &__phone
+    text-decoration: none
+    color: #000
+    font-size: 28px    
+    text-transform: uppercase
+    +lato_bold    
+  &__text
+    text-decoration: underline
+    font-weight: 400
+    font-size: 16px
+    color: $second 
 
