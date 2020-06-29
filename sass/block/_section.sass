@@ -264,3 +264,167 @@
   margin-bottom: 22px
 .tel__map
   margin-bottom: 18px
+
+//___________________________________________________Модальные окна______________________________//
+
+.popup
+  &-thanks
+    position: fixed
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.5)
+    top: 0
+    left: 0
+    opacity: 0
+    visibility: hidden
+    overflow-x: hidden
+    overflow-y: auto
+    transition: all 0.8s ease 0s    
+    &__body
+      display: flex
+      justify-content: center
+      align-items: center
+      min-height: 100%      
+    &__close
+      position: absolute
+      top: 0
+      right: -31px 
+      cursor: pointer   
+    &__content
+      text-align: center
+      padding: 37px 50px
+      max-width: 320px
+      max-height: 120px
+      background-color: #fff
+      position: relative
+    &__title
+      font-size: 14px
+      margin-top: 0
+      +lato_bold
+    &__subtitle
+      font-size: 12px
+      margin-top: 0
+      margin-bottom: 0
+      +lato_reg
+  
+  &-backcall
+    position: fixed
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.5)
+    top: 0
+    left: 0
+    opacity: 0
+    visibility: hidden
+    overflow-x: hidden
+    overflow-y: auto
+    transition: all 0.8s ease 0s
+    &__body
+      display: flex
+      justify-content: center
+      align-items: center
+      min-height: 100%
+    &__content
+      text-align: center
+      padding: 37px 50px
+      max-width: 320px      
+      background-color: #fff
+      position: relative
+    &__close
+      position: absolute
+      top: 0
+      right: -31px
+      cursor: pointer  
+    &__title
+      font-size: 14px
+      margin-top: 0
+      +lato_bold
+    &__subtitle
+      font-size: 12px
+      margin-top: 0
+      margin-bottom: 0
+      +lato_reg
+    &__item
+      display: flex
+      flex-direction: column      
+    &__input
+      border: none
+      padding-left: 15px
+      padding-top: 16px
+      padding-bottom: 13px
+      border: 1px solid #d0d0d0
+    &__button
+      border: none
+      outline: none
+      background-color: transparent
+      background-color: $second
+      color: #fff
+      padding: 15px 40px
+      border-radius: 23px
+      font-size: 16px
+      cursor: pointer
+      +lato_bold
+
+  &-fastoffer
+    position: fixed
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,0.5)
+    top: 0
+    left: 0
+    opacity: 0
+    visibility: hidden
+    overflow-x: hidden
+    overflow-y: auto
+    transition: all 0.8s ease 0s
+    &__body
+      display: flex
+      justify-content: center
+      align-items: center
+      min-height: 100%
+    &__content
+      text-align: center
+      padding: 37px 50px
+      max-width: 320px
+      background-color: #fff
+      position: relative      
+    &__close      
+      position: absolute
+      top: 0
+      right: -31px
+      cursor: pointer   
+      
+    &__title
+      font-size: 14px
+      margin-top: 0
+      +lato_bold
+    &__subtitle
+      font-size: 12px
+      margin-top: 0
+      margin-bottom: 0
+      +lato_reg
+    &__item
+      display: flex
+      flex-direction: column
+
+.backcall__subtitle
+  margin-bottom: 18px     
+.backcall__input
+  margin-bottom: 10px
+  &:nth-child(3)
+    margin-bottom: 15px
+.fastoffer__input
+  margin-bottom: 10px
+  &:nth-child(2)
+    margin-bottom: 15px
+
+
+input[type="text"].popup-backcall__input 
+  background: url('../img/section/user-male.png') no-repeat
+  background-position: right 15px center
+input[type="tel"].popup-backcall__input
+  background: url('../img/section/phone.png') no-repeat
+  background-position: right 15px center
+input[type="email"].popup-backcall__input
+  background: url('../img/section/mail.png') no-repeat
+  background-position: right 15px center
