@@ -10,60 +10,62 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="navbar">
-          <span class="navbar__logo">Логотип</span>
-          <div class="navbar__contacts">
-            <a href="tel:88002323212" class="navbar__phone">8 800 232 32 12</a>
-            <a href="#" class="navbar__text">Заказать обратный звонок</a>
-          </div>
-        </div>
-        <div class="content">
-          <div class="hero">
-            <div class="hero__title">
-              <strong class="hero__text">Продажа кузовных запчастей</strong>
-              <span class="hero__subtext"
-                >с заводской покраской без пробега по РФ</span
-              >
+        <div class="header-content">
+          <div class="navbar navbar__size">
+            <span class="navbar__logo">Логотип</span>
+            <div class="navbar__contacts">
+              <a href="tel:88002323212" class="navbar__phone">8 800 232 32 12</a>
+              <a href="#" class="navbar__text">Заказать обратный звонок</a>
             </div>
           </div>
-          <div class="service">
-            <div class="service__item">
-              <img
-                src="img/header/car.png"
-                alt="Машина"
-                class="service__foto"
-              />
-              <p class="service__text">Доставка по РФ от 3-х дней</p>
+          <div class="content">
+            <div class="hero">
+              <div class="hero__title">
+                <strong class="hero__text">Продажа кузовных запчастей</strong>
+                <span class="hero__subtext"
+                  >с заводской покраской без пробега по РФ</span
+                >
+              </div>
             </div>
-            <div class="service__item">
-              <img
-                src="img/header/new.png"
-                alt="Детали"
-                class="service__foto"
-              />
-              <p class="service__text">Новое состояние по цене б/у</p>
+            <div class="service service__size">
+              <div class="service__item">
+                <img
+                  src="img/header/car.png"
+                  alt="Машина"
+                  class="service__foto"
+                />
+                <p class="service__text">Доставка по РФ от 3-х дней</p>
+              </div>
+              <div class="service__item">
+                <img
+                  src="img/header/new.png"
+                  alt="Детали"
+                  class="service__foto"
+                />
+                <p class="service__text">Новое состояние по цене б/у</p>
+              </div>
+              <div class="service__item">
+                <img
+                  src="img/header/list.png"
+                  alt="Наличие"
+                  class="service__foto"
+                />
+                <p class="service__text">Наличие более 500 различных деталей</p>
+              </div>
             </div>
-            <div class="service__item">
-              <img
-                src="img/header/list.png"
-                alt="Наличие"
-                class="service__foto"
-              />
-              <p class="service__text">Наличие более 500 различных деталей</p>
-            </div>
-          </div>
-          <div class="button">
-            <div class="button-request">
-              <button class="button__solid button-site">Быстрая заявка</button>
-              <p class="button__text">
-                Мы перезвоним Вам для уточнения деталей.
-              </p>
-            </div>
-            <div class="button-request">
-              <button class="button__transparent button-site">
-                Подробная заявка
-              </button>
-              <p class="button__text">Заполните подробную заявку онлайн!</p>
+            <div class="button button__size">
+              <div class="button-request button-request__size">
+                <button class="button__solid button-site">Быстрая заявка</button>
+                <p class="button__text">
+                  Мы перезвоним Вам для уточнения деталей.
+                </p>
+              </div>
+              <div class="button-request button-request__size">
+                <button class="button__transparent button-site">
+                  Подробная заявка
+                </button>
+                <p class="button__text">Заполните подробную заявку онлайн!</p>
+              </div>
             </div>
           </div>
         </div>
@@ -134,11 +136,10 @@
           <h2 class="form-request__subtitle subtitle">
             Заполните форму и получите максимально точную цену!
           </h2>
-          <form action="#" class="form-data">
+          <form action="#" class="form-data" >
             <div class="form-data__column-one column__one column">
               <label for="mark" class="form-data__mark label__title"
-                >Марка:</label
-              >
+                >Марка:</label>
               <input
                 type="text"
                 id="mark"
@@ -146,8 +147,7 @@
                 placeholder="Выберите марку"
               />
               <label for="model" class="form-data__model label__title"
-                >Модель:</label
-              >
+                >Модель:</label>
               <input
                 type="text"
                 id="model"
@@ -155,8 +155,7 @@
                 placeholder="Выберите модель"
               />
               <label for="year" class="form-data__year label__title"
-                >Год выпуска:</label
-              >
+                >Год выпуска:</label>
               <input
                 type="text"
                 id="year"
@@ -166,8 +165,7 @@
             </div>
             <div class="form-data__column-two column__two column">
               <label for="area" class="form-data__text label__title"
-                >Необходимые детали:</label
-              >
+                >Необходимые детали:</label>
               <textarea
                 name="text"
                 class="textarea form__textarea"
@@ -177,8 +175,7 @@
                 placeholder="Введите"
               ></textarea>
               <label for="name" class="form-data__name label__title label-title"
-                >Ваше имя:</label
-              >
+                >Ваше имя:</label>
               <input
                 type="text"
                 id="name"
@@ -189,8 +186,7 @@
 
             <div class="form-data__column-three column__three column">
               <label for="tel" class="form-data__name label__title"
-                >Ваш телефон:</label
-              >
+                >Ваш телефон:</label>
               <input
                 type="tel"
                 name=""
@@ -199,8 +195,7 @@
                 placeholder="+7 (9__) ___-__-__"
               />
               <label for="mailto" class="form-data__name label__title"
-                >Ваш e-mail:</label
-              >
+                >Ваш e-mail:</label>
               <input
                 type="email"
                 name=""
@@ -392,11 +387,11 @@
             <div class="input-form form__input">
               <div class="input-form__item">
                 <label for="name" class="input-form__text form__text">Ваше имя:</label>
-              <input type="text" class="input-form__name form__name" id="name">
+              <input type="text" class="input-form__name form__name" id="name" placeholder="Введите">
               </div>
               <div class="input-form__item">
-                <label for="name" class="input-form__text form__text">Ваше имя:</label>
-              <input type="text" class="input-form__name form__name" id="name">
+                <label for="name" class="input-form__text form__text ">Ваш телефон:</label>
+              <input type="tel" class="input-form__name form__name" id="name" placeholder="Введите">
               </div>
             </div>
             <div class="button__consult">

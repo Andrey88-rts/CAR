@@ -1,6 +1,7 @@
 .header
-  background: url('../img/header/bg.png') no-repeat center   
-  padding-top: 20px    
+  background: url('../img/header/bg.png') no-repeat center
+  padding-top: 20px
+  padding-bottom: 78px           
 .navbar   
   display: flex  
   justify-content: space-between
@@ -16,8 +17,7 @@
     flex-direction: column
     justify-content: space-between
     align-items: flex-end
-    color: #fff
-    //  
+    color: #fff      
   &__phone
     text-decoration: none
     color: #fff
@@ -28,11 +28,11 @@
     text-decoration: underline
     font-weight: 400
     font-size: 16px
-    color: $second  
+    color: $second 
+  &__size
+    margin-bottom: 120px
 
-.content
-  margin-top: 113px  
-.hero   
+.hero 
   &__title
     display: flex
     flex-direction: column
@@ -47,14 +47,14 @@
     text-transform: uppercase
     +lato_bold
   &__subtext
-    line-height: 46px
     +lato_reg
 
 .service
   display: flex
   justify-content: space-around
   align-items: flex-start 
-  margin-top: 100px   
+  &__size
+    margin-top: 100px
   &__item
     display: flex
     flex-direction: column
@@ -73,33 +73,32 @@
     color: #fff    
     +lato
 
-
 .button
   display: flex
   justify-content: center
-  align-items: center   
+  align-items: center
+  &__size   
+    margin-top: 100px      
   &-request
     display: flex
     flex-direction: column
-    justify-content: center    
-    margin-right: 40px  
-    margin-top: 100px      
-    &:last-child
-      margin-right: 0    
+    justify-content: center
+    &__size
+      margin-right: 40px
+      &:last-child
+        margin-right: 0
   &__text
     align-self: center
     text-align: center
     width: 150px       
     margin-bottom: 0
-    margin-top: 20px
+    margin-top: 20px 
     font-size: 13px    
     font-weight: 700
-    color: #ffffff
-    padding-bottom: 74px
+    color: #ffffff    
   &__solid
     background-color: $second
-    border: none
-       
+    border: none    
   &__transparent
     background-color: transparent
     border: 2px solid $second
